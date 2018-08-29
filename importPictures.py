@@ -9,7 +9,7 @@ Created on Fri Aug 24 21:53:53 2018
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
-from skimage.color import rgb2gray
+#from skimage.color import rgb2gray
 from PIL import Image
 import os
 

@@ -6,11 +6,13 @@ Created on Fri Aug 24 22:53:15 2018
 @author: rwilson
 """
 import importPictures as myModule
-
-
-	
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import numpy as np
 
 t = myModule.importPictures()
+t.firstMethod()
 
 img = t.getImageNamed('images/01.png', 50)
 imgplot = plt.imshow(img)
+plt.show()
