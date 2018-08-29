@@ -13,6 +13,7 @@ import numpy as np
 t = myModule.importPictures()
 t.firstMethod()
 
-img = t.getImageNamed('images/01.png', 50)
+array = t.getImagesInDirectory('images/football/')
+img = array[2]
 imgplot = plt.imshow(img)
 plt.show()
